@@ -1,0 +1,41 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 20px;
+    font-size: 20px;
+    border: 2px black solid;
+}
+
+.container {
+
+    background-color: gray;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.screen {
+    min-height: 80px;
+    background-color: lightblue;
+    font-size: 40px;
+    border: 2px solid black;
+}
+
+.row {
+    margin-top: 10px;
+}
+
+.clear {
+    background-color: royalblue;
+}
+
+.delete {
+    background-color: darkseagreen;
+}
